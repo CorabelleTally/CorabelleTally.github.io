@@ -371,7 +371,9 @@ header .logo {
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
-	background: #444 url(../img/bg/bg-1.jpg) no-repeat center center fixed;
+	/*First background image*/
+	background: #444 url(../images/IMG_2165.jpg) no-repeat center center fixed;
+	/*../img/bg/bg-1.jpg*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -475,10 +477,11 @@ section.spacer {
 	color:#fcfcfc;
 }
 
+/*This is the contact and 1st quote spacer*/
 .spacer.green,.section.green {
-	background:#1bac91;
+	background:/*#1bac91*/#0099CC;
 }
-
+/*text for first quote*/
 .spacer.green,.section.green h4 {
 	color:#fff;
 }
@@ -486,8 +489,9 @@ section.spacer {
 .spacer.yellow,.section.yellow  {
 	background:#ffe873;
 }
+/*Orange spacer*/
 .spacer.orange,.section.orange {
-	background:#f36f36;
+	background:/*#f36f36*/#0099CC;
 }
 
 section.spacer.bg2 {
@@ -498,7 +502,9 @@ section.spacer.bg2 {
 }
 
 section.spacer.bg3 {
-	background: url(../img/bg/bg-3.jpg) 50% 0 no-repeat fixed;
+	/*Other background image*/
+	background: url(../images/IMG_1651.jpg) 90% 0 no-repeat fixed;
+	/*../img/bg/bg-3.jpg*/
 	width:100%;
 	height:auto;
 	margin:0;	
@@ -510,7 +516,7 @@ section.spacer blockquote.large:before {
 }
 
 section.spacer blockquote cite {
-	color:#555;
+	color:/*#555*/#f2f2f2;
 }
 
 
@@ -731,6 +737,7 @@ section#services h2 {
 	margin-top: 10px;
 	text-align:center;
 }
+
 section#services p {
 	margin:10px;
 }
@@ -745,23 +752,33 @@ section#services .service-box {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+
+/*precolor to the one under*/
 section#services .span3:hover {
 	background:#e3e3e3;
 }
 
+/*color of headers for the skills*/
 section#services .service-box h2 {
-	color: #f7f7f7;
-	font-weight: 700;
+	color: /*#f7f7f7*/#262626;
+	font-weight: 800;
 }
 
+/*color of paragraphs for the skills*/
+section#services .service-box p {
+	color:#262626;
+	font-weight: 500;
+}
+
+/*background color(orange) of the skills*/
 section#services.section.orange .service-box:hover {
-	background:#f36518;
+	background:/*#f36518*/white;
 }
 
 
 /* === section blog === */
 
-section#blog {
+/*section#blog {
 	background: #f2f2f2;
 }
 
@@ -821,7 +838,7 @@ section#blog {
 .home-post .post-meta span.tags a {
 	color:#fcfcfc;
 }
-
+*/
 
 
 /* === section about === */
