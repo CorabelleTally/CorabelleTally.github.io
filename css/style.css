@@ -1304,7 +1304,7 @@ i.icon-white {
 ============================================================ */
  
 .btn {
-	color: #fff;
+	color:#fff;
 	text-shadow: none;
 	font-size: 16px;
 	padding: 11px 19px;
@@ -1319,7 +1319,7 @@ i.icon-white {
 	-webkit-box-shadow: none;
   background-color: #545454;
   border-color: none;
-  *background-color: #545454;
+  *background-color:#545454;
   background-image: none;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: none;
@@ -1473,8 +1473,9 @@ i.icon-white {
 .btn-success {
   color: #ffffff;
   text-shadow: none;
-  background-color: #1bac91;
-  *background-color: #1bac91;
+  background-color: #0099CC/*#1bac91*/;
+  background-color: #0099CC/*#1bac91*/;
+  *background-color:#0099CC/*#1bac91*/;
   background-image: none;
   border-color: none;
   filter:none;
