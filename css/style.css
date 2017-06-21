@@ -372,7 +372,7 @@ header .logo {
 /* --- Header slider --- */
 #header-wrapper.header-slider {
 	/*First background image*/
-	background: #444 url(../images/IMG_2165.jpg) no-repeat center center fixed;
+	background: #444 url(../images/IMG_2165_1.jpg) no-repeat center center fixed;
 	/*../img/bg/bg-1.jpg*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -503,7 +503,7 @@ section.spacer.bg2 {
 
 section.spacer.bg3 {
 	/*Other background image*/
-	background: url(../images/IMG_1651.jpg) 90% 0 no-repeat fixed;
+	background: url(../images/IMG_1651_1.jpg) 90% 0 no-repeat fixed;
 	/*../img/bg/bg-3.jpg*/
 	width:100%;
 	height:auto;
@@ -527,7 +527,7 @@ section.spacer blockquote cite {
 	margin-bottom:20px;
 }
 
-#portfolio {
+#- {
 	padding-bottom: 0;
 }
 /* === portfolio filter === */
@@ -906,7 +906,7 @@ section#about {
 
 /* Contact Form */
 
-.validation {
+/*.validation {
     color: red;
     display:none;
     margin: 0 0 20px;
@@ -1020,7 +1020,7 @@ div.cform-response-output {
 	border-radius: 4px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
-}
+}*/
 
 
 
@@ -1084,7 +1084,7 @@ footer ul.social-networks li a i.icon-twitter:hover {
 	background: #5ad2eb;
 	color: #fff;
 }
-footer ul.social-networks li a i.icon-dribbble:hover {
+footer ul.social-networks li a i.icon-facebook:hover {
 	background: #f57b71;
 	color: #fff;
 }
