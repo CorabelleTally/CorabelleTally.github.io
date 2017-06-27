@@ -1,0 +1,62 @@
+
+
+/*body {
+
+	background-color:;
+	background-size:auto cover;
+	background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url(http://az616578.vo.msecnd.net/files/2016/04/09/6359584192736039451387129571_870304.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: top;
+    border: 10px solid black;
+    padding: 35px;
+    background-origin: content-box;*/
+/* h3{
+	background-color:aquamarine;
+}*/
+
+/*.shoe-types{
+	border
+*/
+
+
+
+}
+.shoe-types{
+	display: inline;
+}
+
+.gallery{
+	overflow: auto;
+	background-color:white;
+}
+
+h1 {
+	font-family:"Impact", Charcoal, sans-serif;
+	font-size: 85px;
+}
+
+h2 {
+	font-size:45px;
+
+}
+
+h3 {
+	font-size:30px;
+}
+/*p {
+	outline-color: green;
+}
+*/
+
+/*img-shoe {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+*/
+
+
